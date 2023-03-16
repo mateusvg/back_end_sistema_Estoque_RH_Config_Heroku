@@ -16,6 +16,7 @@ app.use((req, res, next) => {
 	next();
   });
   
+app.use(cors());
 
 //Rotas
 const index = require('./routes/index');
