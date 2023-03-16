@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/server.js"
+    "start": "node ./bin/server.js"
   },
   "author": "Mateus Vitorino Guimarães",
   "license": "ISC",
@@ -16,5 +16,9 @@
   },
   "devDependencies": {
     "dotenv": "^16.0.3"
-  }
+  },
+  "engines": {
+    "node": "14.17.3",
+    "npm": "6.14.13"
+}
 }
